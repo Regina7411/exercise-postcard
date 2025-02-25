@@ -1,0 +1,66 @@
+/* Reset general */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+	font-family: "Arial", sans-serif;
+	background-color: #f0f0f0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+/* Estilo de la tarjeta */
+.postcard {
+	width: 350px;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	border-radius: 10px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del lado frontal */
+.front {
+	background-color: #ff7f50; /* Coral */
+	color: white;
+	width: 50%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.front h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.front p {
+	font-size: 16px;
+}
+
+/* Estilo del lado posterior */
+.back {
+	background-color: white;
+	color: #333;
+	width: 50%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.back .content p {
+	font-size: 18px;
+	font-style: italic;
+}

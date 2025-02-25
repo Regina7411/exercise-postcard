@@ -1,0 +1,22 @@
+/* .postcard-footer: Estilo para el pie de la tarjeta */
+.postcard-footer {
+	text-align: center; /* Centra el contenido dentro del pie de la tarjeta */
+	padding: 10px; /* Agrega espaciado dentro del pie */
+	background-color: #f0f0f0; /* Fondo gris claro */
+}
+
+/* Estilo para el botón */
+button {
+	background-color: #4caf50; /* Fondo verde oscuro para el botón */
+	color: white; /* Texto blanco */
+	padding: 10px 20px; /* Padding para el botón */
+	border: none; /* Sin bordes */
+	border-radius: 5px; /* Bordes redondeados */
+	font-size: 16px; /* Tamaño de texto */
+	cursor: pointer; /* Cambia el cursor a puntero cuando el mouse está sobre el botón */
+}
+
+/* Efecto hover para el botón */
+button:hover {
+	background-color: #45a049; /* Color verde más oscuro cuando se pasa el mouse sobre el botón */
+}
